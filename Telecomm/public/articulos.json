@@ -1,0 +1,14 @@
+{
+"articulos":[
+
+{"articulos":"1",
+"nombre":"router",
+"existencia":"500",
+"caracteristicas":"es un router que contiene",
+"precio":"$1000",
+"costo":"$1200",
+"reorden":"5",
+"unidad":"12"
+}
+]
+}

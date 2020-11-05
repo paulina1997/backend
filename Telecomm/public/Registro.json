@@ -1,0 +1,14 @@
+{
+"registro":[
+
+{"Id_articulos":"1",
+"Nombre":"router",
+"Existencia":"500",
+"Caracteristicas":"es un router que contiene",
+"Precio":"$1000",
+"Costo":"$1200",
+"Reorden":"5",
+"Unidad":"12"
+}
+]
+}

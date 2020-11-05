@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio</title>
+   <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assest/css/font-awesome.min.css">
+     <link rel="stylesheet" href="assest/css/Master2.css">
+    <style>
+      .rojo{color: #3A4FC9;}
+  </style>
+</head>
+
+<body>
+  
+      
+        
+
+  </div>
+  
+  
+    <!--Encabezado-->
+    <div class="container-fluid"></div>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <img src="assest/img/Tele.png" width="60px" alt="Logo" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Servicios.html">Servicios <span class="sr-only">(actual)</span></a>
+      </li>
+   
+ </div>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="articulos.html">Articulos <span class="sr-only">(actual)</span></a>
+      </li>
+  
+      </div>
+      
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="Clientes.html">Clientes <span class="sr-only">(actual)</span></a>
+      </li>
+      
+    </div>
+     </ul>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item ">
+        <a class="nav-link" href="Login.html">Login</a>
+       
+     
+     </ul>
+      </div>
+     </nav>
+    </div>
+    
+
+    
+  </div>
+</nav>
+    </div> <!--./ Container menu -->
+    
+     <!--Zona de despliegue-->
+     
+     <div class="md-form active-cyan active-cyan-2 mb-3">
+  <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+</div>
+     
+     
+     
+     
+     
+      <!--Zona de despliegue-->
+       <div class="container mt-2"> </div>
+       <div class="row">
+        <div class= "col"><a href="#addcliente" data-toggle= "modal" class="btn btn-light">
+        <i class="fa fa-plus fa -x2 text-danger float-rigth"></i> </a> </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+     <!--./Zona de ventanas de modales-->
+     <!--INICIO DEL MODAL AGREGAR-->
+<div class="modal" tabindex="-1" role="dialog" id=addcliente>
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Agregar Servicio</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+     
+   <!-----CAMPOS DE DEL REGISTRO DEL CLIENTE----->
+   <form id="frmEditar">
+     <div class="modal-body">
+          <div class="card-body">
+              <div class="form-group">
+               <label for="id">Id Servicio</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-address-book text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="id" aria-describedby="idHelp" placeholder="Id servicio">
+                </div>
+                <small id="idHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="nombre">Tipo servicio</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Tipo servicio">
+                </div>
+                <small id="nombreHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="nombre">Descripción servicio</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user-o text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Descripcion servicio">
+                </div>
+                <small id="nombreHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="direccion">Precio</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-usd text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="direccion" aria-describedby="direccionHelp" placeholder="Precio">
+                </div>
+                <small id="direccionHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                 <label for="correo">Costo</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-usd text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="correo" aria-describedby="corroHelp" placeholder="Costo">
+                </div>
+                 <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="tel">Articulos</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-barcode text-black-50"></i></div>
+                  </div>
+                   <input type="text" class="form-control" id="telPhone" aria-describedby="telPhoneHelp" placeholder="Articulos">
+                </div>
+                <small id="telPhoneHelp" class="form-text text-muted"></small>
+              </div>
+          </div>
+       </form>
+    </div>
+    <!-----FIN DE LOS CAMPOS DE DEL REGISTRO DEL CLIENTE----->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary" id="btnActualizar">Guardar cambios</button>
+        </div>
+    </div>
+    </div>
+</div>
+  
+     <!--FIN DEL MODAL AGREGAR-->
+     
+     
+     
+  <!--INICIO DEL MODAL VER-->
+   <div class="modal" tabindex="-1" role="dialog" id="vercliente" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Datos del cliente</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         
+          <!-----CAMPOS DEL REGISTRO DEL CLIENTE----->
+  <form id="frmEditar">
+     <div class="modal-body">
+          <div class="card-body">
+              <div class="form-group">
+               <label for="id">Id_cliente</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-address-book text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="id" aria-describedby="idHelp" placeholder="Id Cliente">
+                </div>
+                <small id="idHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="nombre">Nombre contacto</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Nombre contacto">
+                </div>
+                <small id="nombreHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="nombre">Nombre empresa</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user-o text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Nombre empresa">
+                </div>
+                <small id="nombreHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-home text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="direccion" aria-describedby="direccionHelp" placeholder="Dirección">
+                </div>
+                <small id="direccionHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                 <label for="correo">Correo electrónico</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-at text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="correo" aria-describedby="correoHelp" placeholder="Correo electrónico">
+                </div>
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="tel">Teléfono</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-phone text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="tel" aria-describedby="telHelp" placeholder="Teléfono">
+                </div>
+                <small id="telHelp" class="form-text text-muted"></small>
+              </div>
+          </div>
+       </form>
+    </div>
+          <!-----FIN DE LOS CAMPOS DEL REGISTRO DEL CLIENTE----->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+  </div>
+
+  <!--FIN DEL MODAL VER-->
+  
+   <!--INICIO DEL MODAL EDITAR-->
+   
+     <div class="modal" tabindex="-1" role="dialog" id="editcliente">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Datos del Cliente</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+       
+        <!-----CAMPOS DE DEL REGISTRO DEL CLIENTE----->
+      <form id="frmEditar">
+     <div class="modal-body">
+          <div class="card-body">
+              <div class="form-group">
+               <label for="id">Id_cliente</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-address-book text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="id" aria-describedby="idHelp" placeholder="Id Cliente">
+                </div>
+                <small id="idHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="nombre">Nombre contacto</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Nombre contacto">
+                </div>
+                <small id="nombreHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="nombre">Nombre empresa</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user-o text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Nombre empresa">
+                </div>
+                <small id="nombreHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="direccion">Dirección</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-home text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="direccion" aria-describedby="direccionHelp" placeholder="Dirección">
+                </div>
+                <small id="direccionHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                 <label for="correo">Correo electrónico</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-at text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="correo" aria-describedby="correoHelp" placeholder="Correo electrónico">
+                </div>
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+               <label for="tel">Teléfono</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-phone text-black-50"></i></div>
+                  </div>
+                  <input type="text" class="form-control" id="tel" aria-describedby="telHelp" placeholder="Teléfono">
+                </div>
+                <small id="telHelp" class="form-text text-muted"></small>
+              </div>
+          </div>
+       </form>
+    </div>
+           <!-----FIN DE LOS CAMPOS DE DEL REGISTRO DEL CLIENTE----->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary" id="btnActualizar">Guardar cambios</button>
+           </div>
+        </div>
+    </div>
+   </div>
+    </div>
+  
+      <!--FIN DEL MODAL EDITAR-->
+  
+  <!--INICIO DEL MODAL ELIMINAR-->
+  <div class="modal" tabindex="-1" role="dialog" id="deletecliente">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">¿Desea eliminar registro?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIN DEL MODAL ELIMINAR-->
+  <div class="container">
+        <table class="table table-light table-striped">
+            <thead>
+              <tr>
+               <th scope="col">Id_Servicio</th>
+      <th scope="col">Tipo servicio</th>
+      <th scope="col">Descripcion servicio</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Costo</th>
+      <th scope="col">Articulos</th>
+      <th scope="col">Opciones</th>
+              </tr>
+              
+              <tbody>
+    <tr>
+      <th scope="row">01</th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+   
+   <a href="#editservicio" data-toggle="modal" class="btn btn-info btn-lg" id="btn_ver"><i class="fa fa-eye"></i></a>
+    <a href="#editservicio" data-toggle="modal" class="btn btn-warning btn-lg" id="btn_editar"><i class="fa fa-edit"></i></a>
+    <a href="#" data-toggle="modal" class="btn btn-danger btn-lg" id="btn_borrar"><i class="fa fa-trash"></i></a>
+      </td>
+              
+            </thead>
+            <tbody id="Clientes"></tbody>
+        </table>
+    </div>
+
+
+
+<!--./Zona de ventanas de modales-->
+     <div class="modal" tabindex="-1" role="dialog" id=editservicio>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Servicios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+             
+      <div class="container">
+      <div class="row"></div>
+      <div class="col-sm-5 col-sm-offset-3"></div>
+      <div class="card text-center">
+  <div class="card-header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     <i class="fa fa-2x float-right"></i></div>
+  <div class="card-body">
+     
+     
+     <!-- <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+     <form action="" method="get">
+  <div class="form-group">
+    <div class="col-sm-1 col-sm-offset-3">
+    <label for="nombre">Id</label>
+     </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-key"></i> </div>
+        </div>
+        <input type="Text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Id servicio">
+      </div>
+  </div>
+  
+<form action="" method="get">
+  <div class="form-group">
+    <div class="col-sm-1 col-sm-offset-3">
+    <label for="existencia">Tipo</label>
+     </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-tag"></i> </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Tipo servicio">
+      </div>
+  </div>
+
+  
+  <form   action="" method="get">
+  <div class = "form-group"> 
+  <div class="col-sm-1 col-sm-offset-3">
+  <label for="caracter">Descripción</label>
+  </div>
+    
+    <div class="input-group ">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-edit"></i> </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Descripcion servicio">
+      </div>
+  </div>
+  
+  
+  <form   action="" method="get">
+  <div class = "form-group"> 
+  <div class="col-sm-1 col-sm-offset-3">
+  <label for="precio">Precio</label>
+  </div>
+    
+    <div class="input-group ">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-usd"></i> </div>
+        </div>
+        <input type="number" class="form-control" id="inlineFormInputGroupUsername" placeholder="Precio">
+      </div>
+  </div>
+  
+    
+  <form   action="" method="get">
+  <div class = "form-group"> 
+  <div class="col-sm-1 col-sm-offset-3">
+  <label for="costo">Costo</label>
+  </div>
+    
+    <div class="input-group ">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-usd"></i> </div>
+        </div>
+        <input type="number" class="form-control" id="inlineFormInputGroupUsername" placeholder=Costo>
+      </div>
+  </div>
+  
+  
+  <form action="" method="get">
+  <div class="form-group">
+    <div class="col-sm-1 col-sm-offset-3">
+    <label for="reorden">Artículos</label>
+    </div>
+    
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-barcode"></i> </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Articulos" >
+      </div>
+  </div>
+ 
+
+   </div>
+       
+  </div> 
+    <hr>
+    
+  <button type="submit" class="btn btn-primary btn-lg btn-block"> <i class="fa fa-sign-in"></i>&nbsp;Aceptar</button>
+    <div class="modal-footer">
+     <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar </button>
+     <button type="button" class="btn btn-primary"> Guardar cambios </button>
+    </div>
+    </div>
+  </div>
+      </div>
+     </div>
+     </div>
+      </div>
+     
+     
+     <div class="modal" tabindex="-1" role="dialog" id=addcliente>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Servicios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+             
+      <div class="container">
+      <div class="row"></div>
+      <div class="col-sm-5 col-sm-offset-3"></div>
+      <div class="card text-center">
+  <div class="card-header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Agregar Servicio<i class="fa fa-2x float-right"></i></div>
+  <div class="card-body">
+    
+    <!-- <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+    <form action="" method="get">
+  <div class="form-group">
+    <div class="col-sm-1 col-sm-offset-3">
+    <label for="nombre">Id</label>
+     </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-key"></i> </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Id servicio">
+      </div>
+  </div>
+  
+<form action="" method="get">
+  <div class="form-group">
+    <div class="col-sm-1 col-sm-offset-3">
+    <label for="existencia">Tipo</label>
+     </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-tag"></i> </div>
+        </div>
+        <input type="nuemric" class="form-control" id="inlineFormInputGroupUsername" placeholder="Tipo de servicio">
+      </div>
+  </div>
+
+  <form   action="" method="get">
+  <div class = "form-group"> 
+  <div class="col-sm-1 col-sm-offset-3">
+  <label for="caracter">Descripcion</label>
+  </div>
+    
+    <div class="input-group ">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-edit"></i> </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Descripcion servicio">
+      </div>
+  </div>
+  
+  
+  <form   action="" method="get">
+  <div class = "form-group"> 
+  <div class="col-sm-1 col-sm-offset-3">
+  <label for="precio">Precio</label>
+  </div>
+    
+    <div class="input-group ">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-usd"></i> </div>
+        </div>
+        <input type="number" class="form-control" id="inlineFormInputGroupUsername" placeholder="Precio">
+      </div>
+  </div>
+  
+    
+  <form   action="" method="get">
+  <div class = "form-group"> 
+  <div class="col-sm-1 col-sm-offset-3">
+  <label for="costo">Costo</label>
+  </div>
+    
+    <div class="input-group ">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-usd"></i> </div>
+        </div>
+        <input type="number" class="form-control" id="inlineFormInputGroupUsername" placeholder="Costo">
+      </div>
+  </div>
+  
+  
+  <form action="" method="get">
+  <div class="form-group">
+    <div class="col-sm-1 col-sm-offset-3">
+    <label for="reorden">Articulos</label>
+    </div>
+    
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text"> <i class="fa fa-barcode"></i> </div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Articulos" >
+      </div>
+  </div>
+ 
+
+   </div>
+       
+  </div> 
+    <hr>
+  <button type="submit" class="btn btn-primary btn-lg btn-block"> <i class="fa fa-sign-in"></i>&nbsp;Agregar Servicio</button>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary"> Guardar cambios</button>
+      </div>
+     </div>
+   
+   </div>
+  </div>
+    
+    
+    
+      <!--INICIO DEL MODAL ELIMINAR-->
+  <div class="modal" tabindex="-1" role="dialog" id="deletearticulo">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">¿Desea eliminar registro?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FIN DEL MODAL ELIMINAR-->
+     
+    
+    
+    <!--./Zona de despliegue-->
+       <!--Zona de Js-->
+    <script src="assest/js/jquery-3.3.1.js"></script>
+    <script src="assest/js/bootstrap.min.js"></script>
+    <!--validar-->
+    <script src="assest/js/jquery.validate.min.js"></script>
+    <script src="assest/js/additional-methods.min.js"></script>
+    <script src="assest/js/localization/messages_es.js"></script>
+    <!--validar personalizada-->
+    <script src="assest/js/Validar.Clientes.js"></script>
+       
+    <script>
+        
+       
+      $(function()
+		  {
+      $.ajaxSetup({cache:false});
+      $('body').append($.getJSON('Servicios.json',function(datos){
+       //console.log(datos); 
+			$.each(datos.Servicios, function(indice, servicio){
+      //Console.log
+     //armar la tabla
+      $('#Servicios').append('<tr><td>'+(indice+1)+
+																					   '</td><td>'+servicio.id_servicio+
+                       '</td><td>'+servicio.tipo_servicio+
+                       '</td><td>'+servicio.descripcion_servicio+
+                       '</td><td>'+servicio.precio+
+                       '</td><td>'+servicio.costo+
+                        '</td><td>'+servicio.articulos+
+                       '</td><td><a href="#deleteservicio" data-toggle="modal"><a href="#editservicio" data-toggle="modal" data id="'+servicio.id+'"data tipo_servicio="'+servicio.tipo_servicio+'"data descripcion_servicio="'+servicio.descripcion_servicio+'" data precio="'+servicio.precio+'" data costo="'+servicio.costo+'" data articulos="'+servicio.articulos+'" > <i class= "btn btn-warning btn-sm fa fa-edit" id="btn_editar"></i></a>&nbsp;<a href="#vercliente" data-toggle="modal" ><i class= "btn btn-info btn-sm fa fa-eye" id="btn_ver" ></i></a>&nbsp;<a href="#" class= "btn btn-danger btn-sm" id="btn_borrar"><i class="fa fa-trash"></i></a></td></tr>');                                   });
+
+                }).fail(function(e){
+            console.log(e.responseText);
+            
+            }));//fin de fail
+              //esto es llamar ventana modal y mostar datos
+             //usar directamente la ventana modal, quitar el id btn_editar
+             $('#editcliente').on('shown.bs.modal', function(evt){
+             evt.preventDefault();
+             var acliente=$(evt.relatedTarget);//aqui solo obtenemos los elementos data
+             console.log(aServicio);
+                                                        
+             $('#id2').val(acliente.data('id'));
+             $('#ncontacto2').val(acliente.data('nombre_contacto'));
+             $('#nempresa2').val(acliente.data('nombre_empresa'));
+             $('#direccion2').val(acliente.data('direccion'));
+             $('#correo2').val(acliente.data('correo'));
+             $('#telefono2').val(acliente.data('telefono'));
+             });
+         
+          });
+      </script>
+     
+     
+</body>
+
+</html>

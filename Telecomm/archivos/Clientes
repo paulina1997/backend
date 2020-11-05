@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente>
+        <rfc>AAAA</rfc>
+        <nombre>aqui el nombre</nombre>
+        <direccion>la de siempre xD</direccion>
+        <telefono>639 1238902</telefono>
+        <correo_electronico>admin</correo_electronico>
+    </cliente>
+</clientes>

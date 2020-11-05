@@ -1,0 +1,25 @@
+/*
+ *cmando css
+ *el entre cprchete se relaciona con el body*/
+/*subrayado tachado, blink */
+
+
+body{background: #FFFFFF;}
+
+.saludo {font-size: 1.2em;
+        color:#C66B6C;
+}
+
+#titulo {width: 80%;
+         color: #69AA68;
+         height: 50px;
+         background: #050404;
+ /*relleno*/ padding:3px;
+         border: 2px double #919199;
+         margin: 2px auto;
+         text-align: center;
+         }
+         
+         a.menu{text-decoration:none; color:#000;}
+         a.menu:hover{color:#000000}
+         
