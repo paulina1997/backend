@@ -5,7 +5,7 @@ include 'conexion.inc.php';
 class Articulo extends Conectar {
     //todo
     private $db;
-    
+    //MODIFCACION
     public function __construct(){
         $this->db=parent::conexion();
     }
